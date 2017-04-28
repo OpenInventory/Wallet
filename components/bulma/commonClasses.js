@@ -1,0 +1,21 @@
+export default ({
+  isHiddenTouch,
+  isHiddenTablet,
+  isHiddenTabletOnly,
+  isHiddenMobile,
+  isHiddenMobileOnly,
+  isHiddenDesktop,
+  isHiddenDesktopOnly,
+  isHiddenWidescreen,
+  isHiddenWidescreenOnly,
+}) => ({
+  'is-hidden-touch': isHiddenTouch,
+  'is-hidden-tablet': isHiddenTablet,
+  'is-hidden-tablet-only': isHiddenTabletOnly,
+  'is-hidden-mobile': isHiddenMobile,
+  'is-hidden-mobile-only': isHiddenMobileOnly,
+  'is-hidden-desktop': isHiddenDesktop,
+  'is-hidden-desktop-only': isHiddenDesktopOnly,
+  'is-hidden-widescreen': isHiddenWidescreen,
+  'is-hidden-widescreen-only': isHiddenWidescreenOnly,
+});
